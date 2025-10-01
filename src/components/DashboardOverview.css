@@ -1,0 +1,45 @@
+/* src/components/DashboardOverview.css */
+.overview-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.overview-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.card-icon {
+  font-size: 32px;
+  margin-right: 15px;
+  padding: 10px;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.card-icon.score {
+  background-color: #e76f51;
+}
+
+.card-icon.weather {
+  background-color: #2a9d8f;
+}
+
+.card-content h4 {
+  margin: 0 0 5px 0;
+  color: #264653;
+  font-size: 16px;
+}
+
+.card-content p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #2d3748;
+}

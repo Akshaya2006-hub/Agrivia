@@ -1,0 +1,37 @@
+.weather-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.weather-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.weather-header h2 {
+  color: #264653;
+  margin: 0;
+}
+
+.location-selector {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+.forecast-scroll-container {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  padding-bottom: 15px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.forecast-scroll-container::-webkit-scrollbar {
+  display: none;
+}

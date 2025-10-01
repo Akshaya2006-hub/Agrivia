@@ -1,0 +1,86 @@
+/* src/pages/farmer/Leaderboard.css */
+.leaderboard-container {
+  padding: 10px;
+}
+
+.leaderboard-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #264653;
+  margin-bottom: 20px;
+}
+
+.leaderboard-header svg {
+  font-size: 28px;
+  color: #e76f51;
+}
+
+.leaderboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.leaderboard-table th,
+.leaderboard-table td {
+  padding: 16px 20px;
+  text-align: left;
+}
+
+.leaderboard-table thead {
+  background-color: #f8f9fa;
+  color: #6c757d;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.leaderboard-table tbody tr {
+  border-bottom: 1px solid #e9ecef;
+}
+
+.leaderboard-table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.rank-cell {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.rank-badge {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  color: white;
+  background-color: #6c757d;
+}
+
+.rank-badge.gold { background-color: #ffc107; }
+.rank-badge.silver { background-color: #adb5bd; }
+.rank-badge.bronze { background-color: #cd7f32; }
+
+.farmer-cell {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+  color: #264653;
+}
+
+.farmer-icon {
+  font-size: 24px;
+  color: #ced4da;
+}
+
+.score-cell {
+  font-weight: bold;
+  color: #2a9d8f;
+  font-size: 18px;
+}

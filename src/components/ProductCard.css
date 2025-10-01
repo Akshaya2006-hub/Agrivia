@@ -1,0 +1,82 @@
+.product-card {
+  background-color: #ffffff; /* White card */
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border: 1px solid #eeeeee;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: fadeInSlideUp 0.6s ease-out forwards;
+  opacity: 0;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.product-image-container {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+}
+
+.product-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-details {
+  padding: 15px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-details h3 {
+  margin: 0 0 5px 0;
+  font-size: 1.1rem;
+  color: #8D6E63; /* Brown heading */
+}
+
+.product-farmer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+  color: #a1887f; /* Lighter brown text */
+  margin: 0 0 15px 0;
+  flex-grow: 1;
+}
+
+.product-footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #8D6E63; /* Brown price */
+}
+
+.add-to-cart-btn {
+  background-color: #4CAF50; /* Green button */
+  color: white;
+  border: none;
+  padding: 8px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none; /* Important for the Link component */
+  transition: background-color 0.2s;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #43a047;
+}
+

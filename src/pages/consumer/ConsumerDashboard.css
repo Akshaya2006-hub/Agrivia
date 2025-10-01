@@ -1,0 +1,86 @@
+/* --- Styles for the Header --- */
+.consumer-header-bar {
+  background-color: #ffffff;
+  padding: 15px 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid #eeeeee;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.consumer-header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.consumer-title {
+  color: #4CAF50; /* Green from the palette */
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.agrigopay-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px; /* Pill shape */
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 4px 12px rgba(76, 175, 80, 0.3);
+}
+
+.agrigopay-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(76, 175, 80, 0.4);
+}
+
+
+/* --- Styles for the Dashboard Content --- */
+.consumer-dashboard {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 30px;
+}
+
+.search-bar {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 15px 20px 15px 50px; /* Space for icon */
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+  font-size: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  color: #8D6E63;
+}
+
+.search-bar input::placeholder {
+  color: #a1887f;
+}
+
+.search-icon {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #a1887f; /* Lighter brown */
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 25px;
+}
+

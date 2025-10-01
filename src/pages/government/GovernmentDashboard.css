@@ -1,0 +1,48 @@
+/* src/pages/government/GovernmentDashboard.css */
+.gov-dashboard {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #f4f6f8;
+}
+
+.gov-header {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.gov-header h1 {
+  color: #264653;
+  margin: 0 0 5px 0;
+}
+
+.gov-header p {
+  margin: 0;
+  color: #6c757d;
+}
+
+.application-list-container {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.application-list-header {
+  display: grid;
+  grid-template-columns: 2fr 3fr 1fr 2fr;
+  gap: 15px;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.application-list-header h4 {
+  margin: 0;
+  font-size: 14px;
+  color: #6c757d;
+  text-transform: uppercase;
+}

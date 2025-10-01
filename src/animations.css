@@ -1,0 +1,30 @@
+/*
+  This new file contains animations to be used across the app.
+*/
+
+/* Animation for cards to fade and slide in */
+@keyframes fadeInSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply the animation to all card-like components */
+.overview-card,
+.quest-card,
+.profile-card,
+.scheme-card,
+.voucher-card,
+.post-card,
+.forecast-card,
+.product-card,
+.application-list-container,
+.detection-container > .upload-section,
+.results-section .message.assistant {
+  animation: fadeInSlideUp 0.5s ease-out forwards;
+}

@@ -1,0 +1,65 @@
+/* src/pages/farmer/DiseaseDetection.css */
+.detection-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.upload-section {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.upload-section h2 {
+  margin-top: 0;
+  color: #264653;
+}
+
+.upload-section p {
+  color: #6c757d;
+  margin-bottom: 20px;
+}
+
+.analyze-button {
+  margin-top: 20px;
+  background-color: #2a9d8f;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.results-section {
+  margin-top: 30px;
+}
+
+/* Reusing the assistant message style from the floating chat */
+.results-section .message.assistant {
+  background-color: #e9f5f3;
+  color: #264653;
+  border-radius: 16px;
+  padding: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.results-section ul {
+  padding-left: 20px;
+  margin: 10px 0;
+}
+
+.results-section li {
+  margin-bottom: 10px;
+}
+
+.results-section small {
+  display: block;
+  margin-top: 20px;
+  font-style: italic;
+  color: #6c757d;
+}

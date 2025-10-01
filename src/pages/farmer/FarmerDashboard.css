@@ -1,0 +1,20 @@
+.farmer-dashboard-layout {
+  display: flex;
+  min-height: 100vh;
+  /* New light background for clarity */
+  background-color: #F5F5F5; 
+  color: #8D6E63; /* Default text color (Brown) */
+}
+
+.main-wrapper {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-area {
+  padding: 20px;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+

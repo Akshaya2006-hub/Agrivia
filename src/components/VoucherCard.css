@@ -1,0 +1,56 @@
+/* src/components/VoucherCard.css */
+.voucher-card {
+  background-color: #fff;
+  border-left: 5px solid #2a9d8f;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.voucher-card.redeemed {
+  background-color: #f8f9fa;
+  border-left-color: #adb5bd;
+  opacity: 0.7;
+}
+
+.voucher-icon {
+  font-size: 28px;
+  color: #2a9d8f;
+}
+
+.voucher-card.redeemed .voucher-icon {
+  color: #adb5bd;
+}
+
+.voucher-details {
+  flex-grow: 1;
+}
+
+.voucher-details h4 {
+  margin: 0 0 5px 0;
+  color: #264653;
+}
+
+.voucher-code, .voucher-expiry {
+  margin: 0;
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.redeem-button {
+  background-color: #2a9d8f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.redeem-button:disabled {
+  background-color: #ced4da;
+  cursor: not-allowed;
+}

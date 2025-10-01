@@ -1,0 +1,8 @@
+.streaks-container h2 { text-align: center; }
+.streaks-summary { display: flex; justify-content: space-around; background: rgba(0,0,0,0.2); padding: 20px; border-radius: 16px; margin-bottom: 30px; text-align: center; }
+.streaks-summary h3 { margin: 0 0 5px 0; color: rgba(255,255,255,0.8); }
+.streaks-summary p { margin: 0; font-size: 24px; font-weight: bold; }
+.calendar-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 10px; }
+.calendar-day { background: rgba(0,0,0,0.2); height: 80px; border-radius: 12px; display: flex; justify-content: center; align-items: center; font-weight: bold; position: relative; }
+.calendar-day.active { background-color: #2a9d8f; }
+.check-icon { position: absolute; bottom: 5px; right: 5px; font-size: 14px; color: #52d4a1; }

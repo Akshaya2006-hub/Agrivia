@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Green header background */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.header-left, .header-right { display: flex; align-items: center; gap: 15px; }
+.header-title { color: #ffffff; margin: 0; font-size: 24px; } /* White title for contrast */
+.menu-button { background: none; border: none; font-size: 20px; cursor: pointer; color: #ffffff; } /* White icon for contrast */
+.notification-icon { font-size: 20px; color: #ffffff; cursor: pointer; } /* White icon for contrast */
+.header-profile-pic { 
+  width: 36px; 
+  height: 36px; 
+  border-radius: 50%; 
+  object-fit: cover;
+  border: 2px solid white; /* Adds a border to the profile picture */
+}
+

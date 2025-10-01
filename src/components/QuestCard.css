@@ -1,0 +1,67 @@
+/* src/components/QuestCard.css */
+.quest-card {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease-in-out;
+}
+
+.quest-card:hover {
+  transform: translateY(-3px);
+}
+
+.quest-card.completed {
+  background-color: #f0fdf4;
+  opacity: 0.7;
+}
+
+.quest-icon {
+  font-size: 24px;
+  color: #2a9d8f;
+  margin-right: 20px;
+}
+
+.quest-details {
+  flex-grow: 1;
+}
+
+.quest-details h3 {
+  margin: 0 0 5px 0;
+  color: #264653;
+}
+
+.quest-details p {
+  margin: 0;
+  color: #6c757d;
+  font-size: 14px;
+}
+
+.quest-reward {
+  text-align: right;
+}
+
+.quest-reward span {
+  display: block;
+  font-weight: bold;
+  color: #e76f51;
+  margin-bottom: 8px;
+}
+
+.quest-reward button {
+  background-color: #2a9d8f;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.quest-reward button:disabled {
+  background-color: #ced4da;
+  cursor: not-allowed;
+}

@@ -1,0 +1,10 @@
+/* src/pages/farmer/Schemes.css */
+.schemes-container {
+  padding: 10px;
+}
+
+.schemes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px;
+}

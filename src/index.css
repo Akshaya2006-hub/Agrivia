@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: #f4f6f8;
+}
+
+/* --- Styles for the role selection page --- */
+.home-page-role-selection {
+  min-height: 100vh;
+  /* Using the Kerala background image */
+  background-image: url('https://wallpapers.com/images/hd/kerala-pictures-jyzrwdyies16redl.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.home-overlay {
+  background-color: rgba(0, 0, 0, 0.6); /* Dark overlay for text readability */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+/* FIX: Made title white with a shadow to ensure visibility */
+.app-title {
+  font-size: 4rem;
+  margin-bottom: 10px;
+  color: #ffffff; /* Changed to white */
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Added shadow for contrast */
+}
+
+.app-tagline {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  max-width: 600px;
+  line-height: 1.5;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.choose-role-title {
+  font-size: 2.2rem;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* FIX: Increased max-width to fit all cards in a single row */
+.role-cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  max-width: 1100px; /* Increased width */
+}
+
+.role-card {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #264653;
+  padding: 30px;
+  border-radius: 16px;
+  text-decoration: none;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.role-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+.role-icon {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.role-card h3 {
+  font-size: 1.6rem;
+  margin: 0 0 10px 0;
+  color: #2a9d8f;
+}
+
+.role-card p {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  color: #495057;
+}
+
+.role-card.role-farmer .role-icon { color: #2a9d8f; }
+.role-card.role-consumer .role-icon { color: #e76f51; }
+.role-card.role-government .role-icon { color: #007bff; }
+
+.language-selector-main {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  gap: 10px;
+  z-index: 10;
+}
+
+.language-selector-main button {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 8px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+.language-selector-main button:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-color: white;
+}
+
+.language-selector-main button.active {
+  background-color: #2a9d8f;
+  border-color: #2a9d8f;
+  color: white;
+}
+

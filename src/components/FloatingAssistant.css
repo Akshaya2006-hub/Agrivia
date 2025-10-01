@@ -1,0 +1,15 @@
+.floating-btn { position: fixed; bottom: 30px; right: 30px; width: 60px; height: 60px; border-radius: 50%; background-color: #2a9d8f; color: white; border: none; font-size: 28px; display: flex; justify-content: center; align-items: center; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); cursor: pointer; z-index: 1200; transition: transform 0.2s; }
+.floating-btn:hover { transform: scale(1.1); }
+.chat-window { position: fixed; bottom: 100px; right: 30px; width: 350px; height: 500px; background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 16px; box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); display: flex; flex-direction: column; z-index: 1200; overflow: hidden; }
+.chat-header { display: flex; justify-content: space-between; align-items: center; padding: 15px 20px; background-color: rgba(0,0,0,0.2); color: white; }
+.chat-header h4 { margin: 0; }
+.close-chat-btn { background: none; border: none; color: white; font-size: 16px; cursor: pointer; }
+.chat-body { padding: 20px; flex-grow: 1; overflow-y: auto; font-size: 14px; display: flex; flex-direction: column; color: white; }
+.message { margin-bottom: 15px; padding: 10px 15px; border-radius: 20px; max-width: 80%; line-height: 1.5; }
+.message.assistant { background-color: rgba(0,0,0,0.3); border-bottom-left-radius: 5px; }
+.message.user { background-color: #2a9d8f; align-self: flex-end; border-bottom-right-radius: 5px; }
+.suggested-topics { display: flex; gap: 5px; padding: 5px 10px; border-top: 1px solid rgba(255, 255, 255, 0.2); }
+.suggested-topics button { flex: 1; background-color: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); color: white; padding: 5px; border-radius: 20px; cursor: pointer; font-size: 10px; }
+.chat-input-area { display: flex; padding: 10px; border-top: 1px solid rgba(255, 255, 255, 0.2); }
+.chat-input-area input { flex-grow: 1; border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 20px; padding: 0 15px; font-size: 14px; background: rgba(255, 255, 255, 0.1); color: white; }
+.chat-input-area button { background: none; border: none; font-size: 18px; padding: 0 10px; cursor: pointer; color: white; }

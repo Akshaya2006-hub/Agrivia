@@ -1,0 +1,58 @@
+/* src/components/ApplicationRow.css */
+.application-row {
+  display: grid;
+  grid-template-columns: 2fr 3fr 1fr 2fr;
+  align-items: center;
+  gap: 15px;
+  padding: 15px 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.application-row:last-child {
+  border-bottom: none;
+}
+
+.applicant-info h4 {
+  margin: 0 0 4px 0;
+  color: #264653;
+}
+
+.applicant-info span {
+  font-size: 12px;
+  color: #6c757d;
+}
+
+.scheme-info p {
+  margin: 0;
+}
+
+.status-badge {
+  padding: 5px 12px;
+  border-radius: 16px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.status-pending { background-color: #fff3cd; color: #856404; }
+.status-approved { background-color: #d4edda; color: #155724; }
+.status-rejected { background-color: #f8d7da; color: #721c24; }
+
+.action-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.action-buttons button {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ced4da;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.btn-view { background-color: #f8f9fa; }
+.btn-approve { background-color: #2a9d8f; color: white; border-color: #2a9d8f; }
+.btn-reject { background-color: #e76f51; color: white; border-color: #e76f51; }

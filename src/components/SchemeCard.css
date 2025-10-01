@@ -1,0 +1,67 @@
+/* src/components/SchemeCard.css */
+.scheme-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.scheme-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+}
+
+.scheme-card-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+  color: #264653;
+}
+
+.scheme-icon {
+  font-size: 24px;
+  color: #2a9d8f;
+}
+
+.scheme-card-header h3 {
+  margin: 0;
+}
+
+.scheme-description {
+  font-size: 14px;
+  color: #6c757d;
+  flex-grow: 1;
+  margin-bottom: 15px;
+}
+
+.scheme-eligibility {
+  font-size: 14px;
+  background-color: #e9f5f3;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.scheme-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.scheme-source {
+  font-size: 12px;
+  color: #adb5bd;
+}
+
+.apply-button {
+  background-color: #e76f51;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}

@@ -1,0 +1,48 @@
+.forecast-card {
+  flex: 0 0 120px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.forecast-card h4 {
+  margin: 0 0 5px 0;
+  font-size: 16px;
+  color: #264653;
+}
+
+.forecast-date {
+  font-size: 12px;
+  color: #6c757d;
+  margin: 0 0 15px 0;
+}
+
+.forecast-icon {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.icon-sunny { color: #ffc107; }
+.icon-cloudy { color: #6c757d; }
+.icon-storm { color: #007bff; }
+
+.temp-high {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2d3748;
+  margin: 0;
+}
+
+.temp-low {
+  font-size: 16px;
+  color: #6c757d;
+  margin: 0 0 10px 0;
+}
+
+.condition {
+  font-size: 12px;
+  color: #495057;
+  margin: 0;
+}
